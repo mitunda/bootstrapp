@@ -26,7 +26,8 @@ function handleFormSubmission(event) {
     if (response.ok) {
       // Handle successful form submission
       console.log('Form submitted successfully');
-      // Optionally, you can display a success message or redirect the user
+      // Redirect to the dashboard page after signup
+      window.location.href = 'dashboard.html';
     } else {
       // Handle failed form submission
       console.error('Error submitting form');
